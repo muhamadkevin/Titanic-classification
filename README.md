@@ -13,7 +13,7 @@ The dataset used is from the Kaggle https://www.kaggle.com/datasets/yasserh/tita
 The workflow in this notebook includes several main stages:
 1.  **Exploratory Data Analysis (EDA):** Understanding patterns and insights from the data through descriptive statistics and visualization.
 2.  **Data Cleaning:** Handling missing values in columns such as 'Age', 'Cabin', and 'Embarked'.
-3.  **Feature Engineering:** Creating new, relevant features from existing data (e.g., 'FamilySize' from 'SibSp' and 'Parch', or 'Title' from passenger names) to improve model performance.
+3.  **Feature Engineering:** I transformed the ‘Embarked’ column into one-hot encoding to make it machine-readable, and dropped several irrelevant features that did not contribute to the model performance.
 4.  **Data Visualization:** Creating various plots using Matplotlib and Seaborn to illustrate relationships between features.
 5.  **Modeling:** Training with classification models Random Forest.
 6.  **Model Evaluation:** Evaluating the performance of the best model using metrics like accuracy, precision, recall, and the confusion matrix.

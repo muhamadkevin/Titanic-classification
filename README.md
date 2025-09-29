@@ -2,7 +2,7 @@
 
 ## 🚢 Project Overview
 
-This project aims to build a machine learning model that can predict whether a passenger survived the Titanic tragedy or not. Using the classic dataset from the Kaggle competition, this project covers the entire data science workflow from data cleaning to model evaluation.
+This project aims to build a machine learning model that can predict whether a passenger survived the Titanic tragedy or not. Using the classic dataset from the Kaggle, this project covers the entire data science workflow from data cleaning to model evaluation.
 
 ## 💾 Dataset
 
@@ -13,7 +13,7 @@ The dataset used is from the Kaggle https://www.kaggle.com/datasets/yasserh/tita
 The workflow in this notebook includes several main stages:
 1.  **Exploratory Data Analysis (EDA):** Understanding patterns and insights from the data through descriptive statistics and visualization.
 2.  **Data Cleaning:** Handling missing values in columns such as 'Age', 'Cabin', and 'Embarked'.
-3.  **Feature Engineering:** I transformed the ‘Embarked’ column into one-hot encoding to make it machine-readable, and dropped several irrelevant features that did not contribute to the model performance.
+3.  **Feature Engineering:** I filled missing values in the ‘Embarked’ column using its mode, transformed it into one-hot encoding to make it machine-readable, and dropped several irrelevant features that did not contribute to the model performance.
 4.  **Data Visualization:** Creating various plots using Matplotlib and Seaborn to illustrate relationships between features.
 5.  **Modeling:** Training with classification models Random Forest.
 6.  **Model Evaluation:** Evaluating the performance of the best model using metrics like accuracy, precision, recall, and the confusion matrix.

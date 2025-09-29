@@ -6,7 +6,7 @@ This project aims to build a machine learning model that can predict whether a p
 
 ## 💾 Dataset
 
-The dataset used is from the Kaggle competition ["Titanic - Machine Learning from Disaster"](https://www.kaggle.com/c/titanic). This dataset contains demographic and travel details for 1309 passengers.
+The dataset used is from the Kaggle https://www.kaggle.com/datasets/yasserh/titanic-dataset. This dataset contains demographic and travel details for 891 passengers.
 
 ## ⚙️ Project Workflow
 
@@ -15,7 +15,7 @@ The workflow in this notebook includes several main stages:
 2.  **Data Cleaning:** Handling missing values in columns such as 'Age', 'Cabin', and 'Embarked'.
 3.  **Feature Engineering:** Creating new, relevant features from existing data (e.g., 'FamilySize' from 'SibSp' and 'Parch', or 'Title' from passenger names) to improve model performance.
 4.  **Data Visualization:** Creating various plots using Matplotlib and Seaborn to illustrate relationships between features.
-5.  **Modeling:** Training and comparing several classification models such as Logistic Regression, Random Forest, and Support Vector Machines (SVC).
+5.  **Modeling:** Training with classification models Random Forest.
 6.  **Model Evaluation:** Evaluating the performance of the best model using metrics like accuracy, precision, recall, and the confusion matrix.
 
 ## 🛠️ Tech Stack
@@ -28,7 +28,7 @@ The workflow in this notebook includes several main stages:
 
 ## 📊 Results
 
-The best model produced (e.g., Random Forest) achieved an accuracy of about **[Write your accuracy here, e.g., 81%]** on the test data.
+The best model produced RandomForestClassifier achieved an accuracy of about **80.3%** on the test data.
 
 ## 🚀 How to Run
 

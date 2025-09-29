@@ -1,14 +1,14 @@
 # Titanic Passenger Survival Analysis and Prediction
 
-## 🚢 Project Overview
+## Project Overview
 
 This project aims to build a machine learning model that can predict whether a passenger survived the Titanic tragedy or not. Using the classic dataset from the Kaggle, this project covers the entire data science workflow from data cleaning to model evaluation.
 
-## 💾 Dataset
+## Dataset
 
 The dataset used is from the Kaggle https://www.kaggle.com/datasets/yasserh/titanic-dataset. This dataset contains demographic and travel details for 891 passengers.
 
-## ⚙️ Project Workflow
+## Project Workflow
 
 The workflow in this notebook includes several main stages:
 1.  **Exploratory Data Analysis (EDA):** Understanding patterns and insights from the data through descriptive statistics and visualization.
@@ -18,7 +18,7 @@ The workflow in this notebook includes several main stages:
 5.  **Modeling:** Training with classification models Random Forest.
 6.  **Model Evaluation:** Evaluating the performance of the best model using metrics like accuracy, precision, recall, and the confusion matrix.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **Python**
 * **Pandas & NumPy** (For data manipulation and analysis)
@@ -26,11 +26,11 @@ The workflow in this notebook includes several main stages:
 * **Scikit-learn** (For building and evaluating machine learning models)
 * **Jupyter Notebook** (As the working environment)
 
-## 📊 Results
+## Results
 
 The best model produced RandomForestClassifier achieved an accuracy of about **80.3%** on the test data.
 
-## 🚀 How to Run
+## How to Run
 
 1.  Clone this repository.
 2.  Install all the required dependencies from the `requirements.txt` file.
